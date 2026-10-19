@@ -1,0 +1,74 @@
+[
+  {
+    "source": "wiktionary",
+    "query": "winter",
+    "success": true,
+    "ms": 187
+  },
+  {
+    "source": "datamuse",
+    "query": "winter",
+    "success": true,
+    "ms": 312
+  },
+  {
+    "source": "tatoeba",
+    "query": "winter",
+    "success": true,
+    "ms": 648
+  },
+  {
+    "source": "openlibrary",
+    "query": "winter",
+    "success": true,
+    "ms": 874
+  },
+  {
+    "source": "datamuse",
+    "query": "curiosity",
+    "success": true,
+    "ms": 200
+  },
+  {
+    "source": "openlibrary",
+    "query": "curiosity",
+    "success": true,
+    "ms": 373
+  },
+  {
+    "source": "wiktionary",
+    "query": "curiosity",
+    "success": true,
+    "ms": 524
+  },
+  {
+    "source": "tatoeba",
+    "query": "curiosity",
+    "success": true,
+    "ms": 1751
+  },
+  {
+    "source": "datamuse",
+    "query": "learning",
+    "success": true,
+    "ms": 196
+  },
+  {
+    "source": "wiktionary",
+    "query": "learning",
+    "success": true,
+    "ms": 394
+  },
+  {
+    "source": "tatoeba",
+    "query": "learning",
+    "success": true,
+    "ms": 1895
+  },
+  {
+    "source": "openlibrary",
+    "query": "learning",
+    "success": true,
+    "ms": 2874
+  }
+]

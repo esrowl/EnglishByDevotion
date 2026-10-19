@@ -1,0 +1,75 @@
+{
+  "data": [
+    {
+      "id": 13965507,
+      "text": "Winter ends today.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "IdiomHunter",
+      "is_unapproved": false,
+      "translations": []
+    },
+    {
+      "id": 13699851,
+      "text": "I adore winter.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "frpzzd",
+      "is_unapproved": false,
+      "translations": [
+        {
+          "id": 13699854,
+          "text": "Kışa bayılıyorum.",
+          "lang": "tur",
+          "script": null,
+          "license": "CC BY 2.0 FR",
+          "owner": "Gulo_Luscus",
+          "is_unapproved": false,
+          "is_direct": true
+        }
+      ]
+    },
+    {
+      "id": 13475128,
+      "text": "Winter is near.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "rul",
+      "is_unapproved": false,
+      "translations": []
+    },
+    {
+      "id": 12857757,
+      "text": "Winter is here.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "rul",
+      "is_unapproved": false,
+      "translations": []
+    },
+    {
+      "id": 12857755,
+      "text": "Winter has begun.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "rul",
+      "is_unapproved": false,
+      "translations": []
+    },
+    {
+      "id": 12353223,
+      "text": "She likes winter.",
+      "lang": "eng",
+      "script": null,
+      "license": "CC BY 2.0 FR",
+      "owner": "sundown",
+      "is_unapproved": false,
+      "translations": []
+    }
+  ]
+}

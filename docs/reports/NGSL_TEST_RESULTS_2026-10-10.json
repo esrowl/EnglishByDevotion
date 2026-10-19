@@ -1,0 +1,528 @@
+{
+  "total": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "v4→v7 is additive and retains personal notes, keys and schedules",
+      "passed": true
+    },
+    {
+      "name": "both real datasets import separately without filling the personal library",
+      "passed": true
+    },
+    {
+      "name": "strict parser rejects invalid columns, duplicate words/ranks and malformed rows",
+      "passed": true
+    },
+    {
+      "name": "core membership, malformed words and all encountered/saved entries are excluded",
+      "passed": true
+    },
+    {
+      "name": "weighted sampler follows 15/35/40/10 and renormalizes empty bands",
+      "passed": true
+    },
+    {
+      "name": "30 consecutive locally prepared dictionary-backed discoveries with distinct persistent feedback",
+      "passed": true
+    },
+    {
+      "name": "reload retains encounters/preferences and never serves one of the first 30 again",
+      "passed": true
+    },
+    {
+      "name": "feedback is idempotent; Already Know/Next never imply mastery or save vocabulary",
+      "passed": true
+    },
+    {
+      "name": "adaptive selection needs sustained objective recall and review evidence, not familiarity",
+      "passed": true
+    },
+    {
+      "name": "offline discovery succeeds without HTTP requests or blacklisting the pool",
+      "passed": true
+    },
+    {
+      "name": "portable backup carries encounters/preferences/recall and rejects malformed records atomically",
+      "passed": true
+    },
+    {
+      "name": "real Continuous Study UI exposes three actions, preserves typography, and has no mobile overflow",
+      "passed": true
+    },
+    {
+      "name": "all three UI feedback buttons persist their distinct intent and move to unseen words",
+      "passed": true
+    },
+    {
+      "name": "displayed real dictionary data can be saved offline after its cache entry is cleared",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "selections": [
+    {
+      "word": "ambiguous",
+      "rank": 5373,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "ambiguous",
+        "rank": 5373,
+        "seenAt": "2026-10-18T08:52:41.058Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.059Z"
+      }
+    },
+    {
+      "word": "medicate",
+      "rank": 18572,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "medicate",
+        "rank": 18572,
+        "seenAt": "2026-10-18T08:52:41.063Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.064Z",
+        "vocabularyId": "b5047208-36aa-4436-b3dc-24e9a5d934de"
+      }
+    },
+    {
+      "word": "imitate",
+      "rank": 5065,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "imitate",
+        "rank": 5065,
+        "seenAt": "2026-10-18T08:52:41.085Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.085Z"
+      }
+    },
+    {
+      "word": "longitude",
+      "rank": 13957,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "longitude",
+        "rank": 13957,
+        "seenAt": "2026-10-18T08:52:41.102Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.102Z"
+      }
+    },
+    {
+      "word": "obsessiveness",
+      "rank": 30112,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "obsessiveness",
+        "rank": 30112,
+        "seenAt": "2026-10-18T08:52:41.117Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.118Z",
+        "vocabularyId": "f9c71087-a630-485b-af04-b5ffd0e2dee7"
+      }
+    },
+    {
+      "word": "tights",
+      "rank": 10077,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "tights",
+        "rank": 10077,
+        "seenAt": "2026-10-18T08:52:41.133Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.133Z"
+      }
+    },
+    {
+      "word": "scientifically",
+      "rank": 9037,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "scientifically",
+        "rank": 9037,
+        "seenAt": "2026-10-18T08:52:41.147Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.147Z"
+      }
+    },
+    {
+      "word": "chant",
+      "rank": 4468,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "chant",
+        "rank": 4468,
+        "seenAt": "2026-10-18T08:52:41.160Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.161Z",
+        "vocabularyId": "5b4cad06-64e7-4f6e-b2e0-1e06a1a1bdf0"
+      }
+    },
+    {
+      "word": "squat",
+      "rank": 6740,
+      "cefr": "Unspecified",
+      "definitions": 3,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "squat",
+        "rank": 6740,
+        "seenAt": "2026-10-18T08:52:41.175Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.176Z"
+      }
+    },
+    {
+      "word": "alleviate",
+      "rank": 6881,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "alleviate",
+        "rank": 6881,
+        "seenAt": "2026-10-18T08:52:41.180Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.180Z"
+      }
+    },
+    {
+      "word": "exalt",
+      "rank": 10954,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "exalt",
+        "rank": 10954,
+        "seenAt": "2026-10-18T08:52:41.194Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.195Z",
+        "vocabularyId": "31e80f72-a633-4121-bdfa-c71acc8a1735"
+      }
+    },
+    {
+      "word": "announcer",
+      "rank": 10777,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "announcer",
+        "rank": 10777,
+        "seenAt": "2026-10-18T08:52:41.209Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.209Z"
+      }
+    },
+    {
+      "word": "ubiquitous",
+      "rank": 7201,
+      "cefr": "Unspecified",
+      "definitions": 3,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "ubiquitous",
+        "rank": 7201,
+        "seenAt": "2026-10-18T08:52:41.214Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.214Z"
+      }
+    },
+    {
+      "word": "morsel",
+      "rank": 14576,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "morsel",
+        "rank": 14576,
+        "seenAt": "2026-10-18T08:52:41.227Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.228Z",
+        "vocabularyId": "dbaf3b53-2e94-4f8c-9594-a935c6097e45"
+      }
+    },
+    {
+      "word": "sustainable",
+      "rank": 4188,
+      "cefr": "Unspecified",
+      "definitions": 3,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "sustainable",
+        "rank": 4188,
+        "seenAt": "2026-10-18T08:52:41.232Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.233Z"
+      }
+    },
+    {
+      "word": "mitigate",
+      "rank": 6836,
+      "cefr": "Unspecified",
+      "definitions": 3,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "mitigate",
+        "rank": 6836,
+        "seenAt": "2026-10-18T08:52:41.239Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.240Z"
+      }
+    },
+    {
+      "word": "weirdness",
+      "rank": 20359,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "weirdness",
+        "rank": 20359,
+        "seenAt": "2026-10-18T08:52:41.255Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.256Z",
+        "vocabularyId": "66184d3c-c9b3-4bb9-8f9a-7852b8419bfb"
+      }
+    },
+    {
+      "word": "purposely",
+      "rank": 11048,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "purposely",
+        "rank": 11048,
+        "seenAt": "2026-10-18T08:52:41.270Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.271Z"
+      }
+    },
+    {
+      "word": "explosion",
+      "rank": 3165,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "explosion",
+        "rank": 3165,
+        "seenAt": "2026-10-18T08:52:41.285Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.285Z"
+      }
+    },
+    {
+      "word": "vocalize",
+      "rank": 18105,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "vocalize",
+        "rank": 18105,
+        "seenAt": "2026-10-18T08:52:41.299Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.300Z",
+        "vocabularyId": "0ee75860-bc25-4221-a252-924324caa0cd"
+      }
+    },
+    {
+      "word": "deteriorate",
+      "rank": 4765,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "deteriorate",
+        "rank": 4765,
+        "seenAt": "2026-10-18T08:52:41.304Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.304Z"
+      }
+    },
+    {
+      "word": "treachery",
+      "rank": 13443,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "treachery",
+        "rank": 13443,
+        "seenAt": "2026-10-18T08:52:41.318Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.318Z"
+      }
+    },
+    {
+      "word": "lampoon",
+      "rank": 18972,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "lampoon",
+        "rank": 18972,
+        "seenAt": "2026-10-18T08:52:41.331Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.332Z",
+        "vocabularyId": "fdeeed32-72f5-4a82-8827-f5b6e1454584"
+      }
+    },
+    {
+      "word": "coracle",
+      "rank": 22778,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "coracle",
+        "rank": 22778,
+        "seenAt": "2026-10-18T08:52:41.346Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.346Z"
+      }
+    },
+    {
+      "word": "scant",
+      "rank": 8942,
+      "cefr": "Unspecified",
+      "definitions": 2,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "scant",
+        "rank": 8942,
+        "seenAt": "2026-10-18T08:52:41.360Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.360Z"
+      }
+    },
+    {
+      "word": "forcibly",
+      "rank": 9563,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "forcibly",
+        "rank": 9563,
+        "seenAt": "2026-10-18T08:52:41.374Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.375Z",
+        "vocabularyId": "9eb3c56c-96e8-4e4b-96c4-b1f0beb98e47"
+      }
+    },
+    {
+      "word": "apostrophe",
+      "rank": 16024,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "apostrophe",
+        "rank": 16024,
+        "seenAt": "2026-10-18T08:52:41.389Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.389Z"
+      }
+    },
+    {
+      "word": "vitamin",
+      "rank": 4077,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "familiar",
+      "encounter": {
+        "word": "vitamin",
+        "rank": 4077,
+        "seenAt": "2026-10-18T08:52:41.403Z",
+        "feedback": "familiar",
+        "feedbackAt": "2026-10-18T08:52:41.404Z"
+      }
+    },
+    {
+      "word": "fluctuate",
+      "rank": 4811,
+      "cefr": "Unspecified",
+      "definitions": 4,
+      "source": "wiktionary",
+      "feedback": "learning",
+      "encounter": {
+        "word": "fluctuate",
+        "rank": 4811,
+        "seenAt": "2026-10-18T08:52:41.408Z",
+        "feedback": "learning",
+        "feedbackAt": "2026-10-18T08:52:41.409Z",
+        "vocabularyId": "dcff9ef2-3b94-48a5-86e8-c49a0baaa947"
+      }
+    },
+    {
+      "word": "cannibalism",
+      "rank": 15578,
+      "cefr": "Unspecified",
+      "definitions": 1,
+      "source": "wiktionary",
+      "feedback": "skipped",
+      "encounter": {
+        "word": "cannibalism",
+        "rank": 15578,
+        "seenAt": "2026-10-18T08:52:41.423Z",
+        "feedback": "skipped",
+        "feedbackAt": "2026-10-18T08:52:41.424Z"
+      }
+    }
+  ]
+}

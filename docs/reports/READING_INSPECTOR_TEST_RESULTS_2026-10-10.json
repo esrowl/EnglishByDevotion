@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "name": "larger branded header has the existing cybernetic graphics and one practice CTA",
+      "passed": true
+    },
+    {
+      "name": "word opens a single bounded inspector without jumping to the bottom",
+      "passed": true
+    },
+    {
+      "name": "clicking a second word removes the first result and resets usage examples",
+      "passed": true
+    },
+    {
+      "name": "Add to Learn creates active learning without learned date or duplicate record",
+      "passed": true
+    },
+    {
+      "name": "existing notes, schedules and review/mastery states are never downgraded",
+      "passed": true
+    },
+    {
+      "name": "rapid clicks cannot bring an old delayed response back into the current panel",
+      "passed": true
+    },
+    {
+      "name": "Add to Learn also activates an already saved new word and persists after refresh",
+      "passed": true
+    },
+    {
+      "name": "1440px inspector is bounded and does not cause horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "900px inspector is bounded and does not cause horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390px inspector is bounded and does not cause horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "closing inspector removes the selected result and keeps the passage",
+      "passed": true
+    },
+    {
+      "name": "mobile enlarged header and practice button stay readable without overflow",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "total": 13,
+  "failed": 0
+}

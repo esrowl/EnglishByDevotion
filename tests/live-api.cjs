@@ -1,0 +1,11 @@
+const {chromium}=require(process.env.EBD_PLAYWRIGHT_MODULE || '/Users/esra/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const base=process.env.EBD_TEST_URL || 'http://127.0.0.1:5180';
+(async()=>{const browser=await chromium.launch({headless:true,executablePath:process.env.EBD_BROWSER || '/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge'});try{const context=await browser.newContext();const page=await context.newPage();await page.goto(`${base}/favicon.svg`);const checks=await page.evaluate(async()=>{
+ const sentences=await import('/src/services/tatoebaService.ts'),discovery=await import('/src/services/discoveryService.ts');const results=[];
+ async function check(source,fn){const started=performance.now();try{const detail=await fn();results.push({source,accessible:true,ms:Math.round(performance.now()-started),detail});}catch(error){results.push({source,accessible:false,ms:Math.round(performance.now()-started),error:error.message});}}
+ await check('Tatoeba first and next page',async()=>{const first=await sentences.getTatoebaPage('winter');const second=first.next?await sentences.getTatoebaPage('winter',first.next):undefined;return {first:first.sentences.length,second:second?.sentences.length,next:!!first.next,credit:first.sentences[0]?.credit,turkish:first.sentences.some(e=>e.translation)};});
+ await check('Wiktionary dictionary',async()=>{const data=await discovery.getWiktionaryData('winter');return {word:data.word,definitions:data.meanings.reduce((n,m)=>n+m.definitions.length,0),source:data.source};});
+ await check('Datamuse discovery',async()=>{const words=await discovery.discoverWords('quiet');if(!words.length)throw new Error('No suggestions');return {count:words.length,first:words.slice(0,3).map(w=>w.word)};});
+ await check('Open Library metadata',async()=>{const page=await discovery.discoverOpenLibrary('alice');if(!page.books.length)throw new Error('No metadata');return {count:page.books.length,first:page.books[0].title,next:!!page.next};});
+ return results;
+});console.log(JSON.stringify({live:true,checks},null,2));if(checks.some(c=>!c.accessible))process.exitCode=1;await context.close();}finally{await browser.close();}})().catch(error=>{console.error(error);process.exitCode=1;});

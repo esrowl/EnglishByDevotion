@@ -1,0 +1,114 @@
+{
+  "total": 27,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "additive v6 → v7 migration preserves raw vocabulary, notes, schedules and settings",
+      "passed": true
+    },
+    {
+      "name": "real local Kaikki pack contains 15,808 licensed headwords and sense-aligned Turkish",
+      "passed": true
+    },
+    {
+      "name": "enrichment is idempotent and never overwrites personal meanings, notes or SRS",
+      "passed": true
+    },
+    {
+      "name": "malformed lexical pack rejected atomically without adding partial entries",
+      "passed": true
+    },
+    {
+      "name": "30 consecutive offline discoveries exclude core, preserve ranks, avoid repeats and persist feedback",
+      "passed": true
+    },
+    {
+      "name": "dictionary cache/source study has made zero external API requests",
+      "passed": true
+    },
+    {
+      "name": "already prepared discovery works with the browser actually offline",
+      "passed": true
+    },
+    {
+      "name": "a translation from a different sense is never used as the primary flashcard answer",
+      "passed": true
+    },
+    {
+      "name": "new sense translations fill gaps without replacing existing translated senses",
+      "passed": true
+    },
+    {
+      "name": "all curated objective answer keys pass; wrong and empty answers fail",
+      "passed": true
+    },
+    {
+      "name": "choice shuffling has no fixed correct-answer position",
+      "passed": true
+    },
+    {
+      "name": "objective attempts are persisted, repeated submissions idempotent, errors explained",
+      "passed": true
+    },
+    {
+      "name": "free-form alternatives remain ungraded, not falsely rejected or promoted to mastery",
+      "passed": true
+    },
+    {
+      "name": "single successful answer does not raise adaptive level",
+      "passed": true
+    },
+    {
+      "name": "recent family and part-of-speech repetition are downweighted",
+      "passed": true
+    },
+    {
+      "name": "portable backup restores lexicon and exercise history in another profile",
+      "passed": true
+    },
+    {
+      "name": "malformed lexical attempt rolls back a backup transaction",
+      "passed": true
+    },
+    {
+      "name": "study dictionary and Turkish sections start open and reopen on next word",
+      "passed": true
+    },
+    {
+      "name": "1440px study preserves fonts and has no overflow",
+      "passed": true
+    },
+    {
+      "name": "390px study preserves fonts and has no overflow",
+      "passed": true
+    },
+    {
+      "name": "multiple choice gives rule explanation and persists UI result after refresh",
+      "passed": true
+    },
+    {
+      "name": "typed word formation accepts punctuation and explains required grammatical role",
+      "passed": true
+    },
+    {
+      "name": "missing optional model does not lose a free-form answer or freeze study",
+      "passed": true
+    },
+    {
+      "name": "1440px exercise UI is readable without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "390px exercise UI is readable without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "history and local meanings survive refresh with external network unavailable",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser exceptions or duplicate React keys",
+      "passed": true
+    }
+  ]
+}

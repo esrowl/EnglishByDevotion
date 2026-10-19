@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "name": "calm home has one prominent practice action and restored header artwork",
+      "passed": true
+    },
+    {
+      "name": "removed legacy provider preferences resolve to Wiktionary without deleting feedback",
+      "passed": true
+    },
+    {
+      "name": "txt extracts real user text without executing HTML",
+      "passed": true
+    },
+    {
+      "name": "md extracts real user text without executing HTML",
+      "passed": true
+    },
+    {
+      "name": "csv extracts real user text without executing HTML",
+      "passed": true
+    },
+    {
+      "name": "html extracts real user text without executing HTML",
+      "passed": true
+    },
+    {
+      "name": "empty.txt is rejected with useful feedback",
+      "passed": true
+    },
+    {
+      "name": "broken.pdf is rejected with useful feedback",
+      "passed": true
+    },
+    {
+      "name": "binary.txt is rejected with useful feedback",
+      "passed": true
+    },
+    {
+      "name": "document.docx is rejected with useful feedback",
+      "passed": true
+    },
+    {
+      "name": "oversized files are rejected before parsing",
+      "passed": true
+    },
+    {
+      "name": "actual Mozilla PDF uploads and all pages extract text",
+      "passed": true
+    },
+    {
+      "name": "TXT upload, rights confirmation and local save work",
+      "passed": true
+    },
+    {
+      "name": "word extraction deduplicates and preserves context and counts",
+      "passed": true
+    },
+    {
+      "name": "real Wiktionary meanings display with attribution and explicit save",
+      "passed": true
+    },
+    {
+      "name": "real Tatoeba usage examples are accessible without Turkish translations",
+      "passed": true
+    },
+    {
+      "name": "unknown word and source failure never save fabricated data",
+      "passed": true
+    },
+    {
+      "name": "reading, cached meanings and saved words survive refresh and offline access",
+      "passed": true
+    },
+    {
+      "name": "full portable export restores personal readings and meanings in another profile",
+      "passed": true
+    },
+    {
+      "name": "large text paginates without truncation and has no ten-word limit",
+      "passed": true
+    },
+    {
+      "name": "1440px Home Desk typography and layout",
+      "passed": true
+    },
+    {
+      "name": "1440px Reading Library typography and layout",
+      "passed": true
+    },
+    {
+      "name": "1440px Vocabulary Deck typography and layout",
+      "passed": true
+    },
+    {
+      "name": "1440px Flashcard Drill typography and layout",
+      "passed": true
+    },
+    {
+      "name": "390px Home Desk typography and layout",
+      "passed": true
+    },
+    {
+      "name": "390px Reading Library typography and layout",
+      "passed": true
+    },
+    {
+      "name": "390px Vocabulary Deck typography and layout",
+      "passed": true
+    },
+    {
+      "name": "390px Flashcard Drill typography and layout",
+      "passed": true
+    },
+    {
+      "name": "removed providers never receive requests and there are no UI crashes",
+      "passed": true
+    }
+  ],
+  "total": 29,
+  "failed": 0
+}
